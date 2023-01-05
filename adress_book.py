@@ -73,6 +73,7 @@ class Name(Field):
 
 
 class Record:
+    
     def __init__(self, name: Name, *phones):
         self.name = name
         self.phones = list(phones)
