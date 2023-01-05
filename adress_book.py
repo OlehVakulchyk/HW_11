@@ -127,7 +127,6 @@ class AddressBook(UserDict):
     def iterator(self, n: int = None):
         if not n:
             n = len(self.data)
-
         k = 1
         str_ret = str(k) + '_' * 40 + '\n'
         i = 0
